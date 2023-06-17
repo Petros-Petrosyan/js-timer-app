@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f9f9f9;
+}
+.fixedHeader {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    margin-bottom: 100px;
+}
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px 50px;
+}
+.title {
+    color: #ffffff;
+}
+.budgetContainer {
+    display: flex;
+}
+.budget {
+    display: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section {
+    padding: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 12px -4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 12px -4px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 12px -4px rgba(0,0,0,0.3);
+}
+.sectionTitle{
+    border-bottom: 1px solid #21bb58;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.buttons {
+    margin-bottom: 10px;
+}
+.timer{
+    padding: 12px;
+    margin-bottom: 12px;
+    -webkit-box-shadow: inset 0px 0px 8px -2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 8px -2px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 8px -2px rgba(0,0,0,0.3);
+}
+.select{
+    margin-bottom: 8px;
+}
+.select select {
+    background-color: #eeeeee;
+    outline: none;
+    cursor: pointer;
+}
+.select span{
+    font-size: 18px;
+}
+.inTime input {
+    padding: 2px 6px;
+    outline: none;
+    font-size: 14px;
+}
+.stop-btn {
+    background-color: #fd3737;
+    display: none;
+}
+.input{
+    display: none;
+}
+.input input{
+    width: 120px;
+}
+.balance span {
+    color: green;
+}
+ button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;   
+    outline: none;
+    color: white;
+    background-color: #21bb58;
+} 
